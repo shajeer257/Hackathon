@@ -1,0 +1,63 @@
+{
+  "template": "<company-news [language]=\"Globals.User.Language\" [baseurl]=\"Globals.App.BaseUrl\" [wsversion]=\"Globals.App.WorkspaceVersion\" [widgetid]=\"Settings.WidgetId\" [dashboardid]=\"Settings.DashboardId\"></company-news>",
+  "bowerName": "",
+  "technology": {
+    "framework": "polymer",
+    "version": "3.0.2"
+  },
+  "Version": 2.0,
+  "WorkspaceVersion": ">=10.5",
+  "name": "Company News",
+  "imports": [
+    "/news/news.js"
+  ],
+  "logoData": "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",
+  "instanceSettingsDefinition": {
+    "id": "http://some.site.somewhere/entry-schema#",
+    "$schema": "http://json-schema.org/draft-04/schema#",
+    "title": "Company News Widget Settings",
+    "description": "Company News Widget Settings",
+    "type": "object",
+    "required": [],
+    "properties": {}
+  },
+  "instanceDefaultSettings": {
+    "language": "en-US",
+    "wsversion": ""
+  },
+  "metadataTypes": [
+    {
+      "Key": "CompanyNewsUserSettings",
+      "Schema": {
+        "title": "Company News User Settings",
+        "description": "Company News User Settings",
+        "type": "object",
+        "properties": {
+          "articlesRead": {
+            "title": "Articles Read",
+            "description": "This can be used to store information of news articles cleared by user",
+            "type": "array",
+            "minItems": 0,
+            "items": {
+              "type": "object",
+              "required": [
+                "id",
+                "timestamp"
+              ],
+              "properties": {
+                "id": {
+                  "type": "string"
+                },
+                "timestamp": {
+                  "type": "number"
+                }
+              }
+            },
+            "uniqueItems": true
+          }
+        }
+      },
+      "Type": 1
+    }
+  ]
+}
